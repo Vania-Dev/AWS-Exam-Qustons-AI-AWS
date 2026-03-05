@@ -21,12 +21,14 @@
 
   <p align="center">
     <br />
+    <a href="https://www.notion.com/templates/aws-certifications-exam">AWS Certifications Exam Template</a>
     <br />
-    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS">Material adicional</a>
+    <br />
+    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS">Aditional material</a>
     ·
-    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS/issues/new?labels=bug&template=bug-report---.md">Reportar un Error</a>
+    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS/issues/new?labels=bug&template=bug-report---.md">Report an Error</a>
     ·
-    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS/issues/new?labels=enhancement&template=feature-request---.md">Solicitar una mejora</a>
+    <a href="https://github.com/Vania-Dev/AWS-Exam-Qustons-AI-AWS/issues/new?labels=enhancement&template=feature-request---.md">Request an Upgrade</a>
   </p>
 </div>
 
