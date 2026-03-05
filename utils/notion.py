@@ -47,7 +47,15 @@ def build_notion_payload(question_data: dict):
         # Incorrect answers will be labeled "Incorrecto" in red
         correctness_label = "Correcto" if ans["isCorrect"] else "Incorrecto"
         color = "green" if ans["isCorrect"] else "red"
-
+        # Fix por que el modelo de AWS luego cambia esta bandera
+        if "explanacion" in ans:
+            explanation = ans["explanacion"]
+        elif "explicación" in ans:
+            explanation = ans["explicación"]
+        elif "explanation" in ans:
+            explanation = ans["explanation"]
+        else:
+            explanation = "No hay explicación disponible."
         # Create a toggle block for this answer option
         # Toggle blocks can be expanded/collapsed to show/hide content
         toggle = {
@@ -80,7 +88,7 @@ def build_notion_payload(question_data: dict):
                                 # Second part: The explanation text (no special formatting)
                                 {
                                     "type": "text",
-                                    "text": {"content": ans["explanation"]}
+                                    "text": {"content": explanation}
                                 }
                             ]
                         }
