@@ -13,7 +13,7 @@
     <img src="images/vaniadev.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Curso de Simulación Matematica de Yacimientos</h3>
+  <h3 align="center">Create your own AWS exam certification guide with AI and Notion</h3>
 
   <a href="https://www.youtube.com/watch?v=F5r-0cj7tsU">
     <img src="images/video.jpg" alt="Logo" style="height: 60%; width:60%;">
